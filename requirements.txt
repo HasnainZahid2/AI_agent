@@ -1,0 +1,25 @@
+# LangChain ecosystem
+langchain
+langgraph
+langchain-openai
+langchain-core
+langchain-mcp-adapters
+
+# OpenAI SDK
+openai
+
+# MCP runtime
+mcp>=1.9.2
+
+# PostgreSQL driver
+psycopg2-binary
+
+# Panel-based UI tools
+panel
+param
+
+# Environment variable loading
+python-dotenv
+
+# Typing support
+typing-extensions

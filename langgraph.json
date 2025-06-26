@@ -1,0 +1,17 @@
+{
+  "dockerfile_lines": [],
+  "tools": [
+    {
+      "id": "math_server",
+      "entrypoint": "math_mcp_server.py"
+    }
+  ],
+  "graphs": {
+    "test": "./langgraph_mcp_client.py:create_graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}
